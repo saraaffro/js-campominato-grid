@@ -59,6 +59,14 @@ main{
     
 }
 
+.livello-2{
+    flex-basis: calc(100% / 9);
+}
+
+.livello-3{
+    flex-basis: calc(100% / 7);
+}
+
 footer{
     height: 50px;
     display: flex;

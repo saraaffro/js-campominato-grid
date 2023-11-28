@@ -61,6 +61,7 @@ if(gameLevels.value === "1"){
     
                 gridElement.append(myElement);
                 myElement.append(i);
+                myElement.classList.add("livello-2");
     
                 // cambio colore dei quadrati al click
                 myElement.addEventListener("click",
@@ -82,6 +83,7 @@ if(gameLevels.value === "1"){
     
                 gridElement.append(myElement);
                 myElement.append(i);
+                myElement.classList.add("livello-3");
     
                 // cambio colore dei quadrati al click
                 myElement.addEventListener("click",
