@@ -24,6 +24,15 @@ header{
 
 }
 
+#difficulties{
+    font-size: 20px;
+}
+
+#levels{
+    width: 40px;
+    text-align: center;
+}
+
 #play{
     margin-right: 10px;
     width: 80px;
