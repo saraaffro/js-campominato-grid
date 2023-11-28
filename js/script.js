@@ -15,6 +15,7 @@ const playButton = document.getElementById("play");
 // creo ciclo per griglia
 for (let i = 1; i <= 100; i++){
 
+    // comparsa griglia al click del playbutton
     playButton.addEventListener("click",
 
         function(){
@@ -23,6 +24,7 @@ for (let i = 1; i <= 100; i++){
             gridElement.append(myElement);
             myElement.append(i);
 
+            // cambio colore dei quadrati al click
             myElement.addEventListener("click",
                 function(){
                     myElement.classList.add("clicked");
@@ -31,11 +33,6 @@ for (let i = 1; i <= 100; i++){
             );
         }
     );
-       
-    
-
-
-   
 }
 
 
